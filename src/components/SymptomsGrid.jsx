@@ -5,10 +5,10 @@ const items = [
   { symptom: "Top-down pressure cycles", solution: "Servant standards with owner-operators + weekly inspect-and-improve." },
   { symptom: "Prestige over people", solution: "Reward maintenance wins, cross-team assists, and clean handoffs." },
   { symptom: "Churn masked by hype", solution: "Track role tenure, cross-training depth, and regretted attrition." },
-  { symptom: "Hero dependency", solution: "Single-page plays with backups and rituals that survive PTO and turnover." },
+  { symptom: "Hero dependency", solution: "One-page plays with backups and rituals that survive PTO and turnover." },
   { symptom: "Busy over outcomes", solution: "One page, one owner, one outcome per initiative—inspect weekly." },
   { symptom: "Vanity pipeline", solution: "Qualify for fit; publish kill-criteria; celebrate strategic ‘no’ calls." },
-  { symptom: "Meeting fog", solution: "Agenda → output → owner. Daily 10-minute huddles that ship decisions." },
+  { symptom: "Meeting fog", solution: "Agenda → output → owner. Daily 10-minute huddles that ship decisions." }
 ];
 
 export default function SymptomsGrid() {
@@ -21,9 +21,7 @@ export default function SymptomsGrid() {
             <div key={i} className="card p-6">
               <p className="text-xs uppercase tracking-wide text-slate-500">Symptom</p>
               <h3 className="font-semibold text-lg mt-1">{row.symptom}</h3>
-              <p className="p mt-3">
-                <span className="font-semibold">Solution: </span>{row.solution}
-              </p>
+              <p className="p mt-3"><span className="font-semibold">Solution: </span>{row.solution}</p>
             </div>
           ))}
         </div>
