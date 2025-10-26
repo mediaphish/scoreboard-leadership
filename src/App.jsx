@@ -2,7 +2,10 @@ import React from "react";
 import Hero from "./components/Hero.jsx";
 import Definition from "./components/Definition.jsx";
 import SymptomsGrid from "./components/SymptomsGrid.jsx";
+import Principles from "./components/Principles.jsx";
+import PlaybookBridge from "./components/PlaybookBridge.jsx";
 import About from "./components/About.jsx";
+import FAQ from "./components/FAQ.jsx";
 import Contact from "./components/Contact.jsx";
 
 export default function App() {
@@ -11,7 +14,10 @@ export default function App() {
       <Hero />
       <Definition />
       <SymptomsGrid />
+      <Principles />
+      <PlaybookBridge />
       <About />
+      <FAQ />
       <Contact />
       <footer className="section border-t">
         <div className="container flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
