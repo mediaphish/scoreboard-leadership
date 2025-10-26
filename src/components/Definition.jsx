@@ -9,7 +9,7 @@ export default function Definition() {
           <strong>Scoreboard Leadership</strong> is a dominance pattern where metrics are weaponized to drive
           compliance, optics outrank outcomes, and people become a means to public wins. The score replaces the
           standard; theater replaces trust. You get velocity spikes, shallow accountability, and hidden churn.
-          The antidote isn’t anti-measurement—it’s <em>servant-led standards</em>: clear roles, honest rhythms,
+          The antidote isn&apos;t anti-measurement—it&apos;s <em>servant-led standards</em>: clear roles, honest rhythms,
           and leaders who carry the cost instead of pushing it down. This diagnostic names the disease so you
           can install a healthier operating system—one that compounds performance without burning out the people
           who create it.
