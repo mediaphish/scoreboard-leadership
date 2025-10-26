@@ -15,9 +15,11 @@ export default function App() {
       <Contact />
       <footer className="section border-t">
         <div className="container flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <p className="text-sm text-slate-500">© 2025 Bart Paden · Archetype Original LLC</p>
+          <p className="text-sm text-slate-500">
+            © 2025 Bart Paden · Archetype Original LLC · Scoreboard Leadership is a diagnostic under Archetype Original
+          </p>
           <nav className="text-sm flex items-center gap-4">
-            <a className="underline" href="https://archetypeoriginal.com" rel="noreferrer">Archetype Original</a>
+            <a className="underline" href="https://archetypeoriginal.com" rel="noreferrer">Archetype Original (Parent)</a>
             <a className="underline" href="#contact">Contact</a>
           </nav>
         </div>
