@@ -14,7 +14,12 @@ export default function Hero() {
         </p>
         <div className="mt-8 flex items-center justify-center gap-3">
           <a href="#definition" className="btn btn-contrast">Read the Definition</a>
-          <a href="https://archetypeoriginal.com" className="btn">Want the cure? → Archetype Original</a>
+          <a
+            href="https://archetypeoriginal.com/?utm_source=scoreboardleadership&utm_medium=referral&utm_campaign=diagnostic#playbooks"
+            className="btn"
+          >
+            Want the cure? → Archetype Original
+          </a>
         </div>
       </div>
     </header>
