@@ -10,14 +10,14 @@ export default function Contact() {
         <h2 className="h2">Contact</h2>
         <div className="card p-6 mt-6 grid gap-4 max-w-2xl">
           <p className="p">
-            Scoreboard Leadership is a diagnostic lens created by Bart Paden. For coaching, workshops,
-            or to install the 10 Plays, continue to Archetype Original.
+            Scoreboard Leadership is a diagnostic lens by Bart Paden under the parent brand Archetype Original.
+            For coaching, playbooks, and workshops, continue to Archetype Original.
           </p>
           <a href={aoUrl} className="btn btn-contrast" rel="noreferrer">
             Go to Archetype Original → Contact
           </a>
           <p className="text-sm text-slate-500">
-            You’ll be routed to the Archetype Original contact form where our team responds fastest.
+            You’ll be routed to the Archetype Original contact form where responses are fastest.
           </p>
         </div>
       </div>
