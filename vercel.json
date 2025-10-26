@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/contact",
+      "destination": "https://archetypeoriginal.com/#contact?utm_source=scoreboardleadership&utm_medium=referral&utm_campaign=diagnostic",
+      "permanent": false
+    }
+  ]
+}
